@@ -1,0 +1,29 @@
+/*
+Theme Name: Bagberry Child Theme
+Description: Bagberry Child Theme
+Author: Marine Dekoninck
+Author URI: https://marinedekoninck.com
+Template: bagberry
+License: GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  bagberrychildtheme
+*/
+
+.has-accent-background-background-color{
+	background-color: white !important;
+}
+
+/* When hover a button, sets the tet color to white */
+.wp-block-button__link:hover{
+	color: white !important;
+}
+
+.wc-block-mini-cart__drawer .wc-block-mini-cart__footer .wc-block-mini-cart__footer-actions .wc-block-mini-cart__footer-checkout{
+	background-color: black !important;
+}
+
+/* Fixing the CSS of the navigation menu of the My Account page */
+.page-id-10 .woocommerce-MyAccount-navigation a:where(:not(.wp-element-button)):hover {
+	color: black !important;
+	font-weight: bold !important;
+}
